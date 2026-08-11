@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(javac -d bin src/PersonApp.java)",
+      "Bash(javac -d bin src/*.java)",
+      "Bash(java -cp bin PersonApp)"
+    ]
+  }
+}
